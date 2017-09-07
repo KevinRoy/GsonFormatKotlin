@@ -1,8 +1,8 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.kevin.plugin.gsonformatkotlin</id>
+  <name>GsonFormatKotlin</name>
   <version>1.0.1</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="luozheng216@gmail.com" url="https://github.com/KevinRoy">Kevin</vendor>
 
   <description><![CDATA[
       Enter short description for your plugin here.<br>
@@ -24,13 +24,15 @@
   <depends>com.intellij.modules.lang</depends>
   -->
 
+  <depends>com.intellij.modules.xml</depends>
+
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
   </extensions>
 
   <actions>
     <!-- Add your actions here -->
-    <action id="KotlinFormatActionId" class="com.kevin.plugin.gsonformatkotlin.action.KotlinFormatAction"
+    <action id="KotlinFormatAction.ID" class="com.kevin.plugin.gsonformatkotlin.action.KotlinFormatAction"
             text="GsonFormatKotlin" description="convert a json string class into kotlin class">
       <add-to-group group-id="CodeMenu" anchor="last"/>
     </action>

@@ -181,7 +181,7 @@ public class KotlinUtils {
         }
 
         if (value != null) {
-            stringBuilder.append("// ").append(value).append("\n");
+            stringBuilder.append("\t\t// ").append(value).append("\n");
         } else {
             stringBuilder.append("\n");
         }
