@@ -5,13 +5,13 @@
   <vendor email="luozheng216@gmail.com" url="https://github.com/KevinRoy">Kevin</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      convert a json string class into kotlin class<br>
+      <em>Kotlin</em>
+      <em>Json</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      nothing<br>
     ]]>
   </change-notes>
 
